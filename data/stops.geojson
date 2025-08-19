@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Stop 1" },
+      "geometry": { "type": "Point", "coordinates": [122.566174865, 10.715830180] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stop 2" },
+      "geometry": { "type": "Point", "coordinates": [122.566099763, 10.715756388] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stop 3" },
+      "geometry": { "type": "Point", "coordinates": [122.566008568, 10.715666783] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stop 4" },
+      "geometry": { "type": "Point", "coordinates": [122.565681338, 10.715424322] }
+    }
+  ]
+}

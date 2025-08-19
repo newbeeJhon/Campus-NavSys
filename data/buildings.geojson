@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Filipino Dept" },
+      "geometry": { "type": "Point", "coordinates": [122.566067576, 10.715814367] }
+
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "English Dept" },
+      "geometry": { "type": "Point", "coordinates": [122.565944195, 10.715719491] }
+
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Computer Dept" },
+      "geometry": { "type": "Point", "coordinates": [122.566115856, 10.715540282] }
+
+    }
+
+  ]
+}
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Navigation System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <h1>Campus Navigation System</h1>
+    </header>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Building Selector & Navigate Button -->
+    <div id="controls">
+        <select id="destination">
+            <option value="">Select Building</option>
+        </select>
+        <button id="navigateBtn">Navigate</button>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p id="infoText">Current Location: 10.715883361721279, 122.56625352427864</p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/campusMap.js"></script>
+    <script src="js/building.js"></script>
+    <script src="js/route.js"></script>
+    <script src="js/geojsonManager.js"></script>
+    <script src="js/campusNavigator.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
